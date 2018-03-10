@@ -1,0 +1,51 @@
+body{
+    background-color: whitesmoke; 
+    font-size: 18px;
+    color: rgb(44, 44, 44);
+    font-family: 'Shrikhand', cursive;
+}
+
+.container{
+    margin: 20px;
+}
+#header{
+font-size: 60px; 
+margin: 20px;
+text-align: center;
+background-color: lightgray;
+padding: 30px;
+}
+
+.pun-btn{
+    background: black;
+    color: white;
+    perspective: 1000px;
+    list-style: none;
+    padding: 10px;
+}
+
+.pun-btn:hover{
+        background: white;
+        color: black;
+        border-color: black; 
+        border: 2px;
+        cursor: pointer;
+        transform: translate3d(0,0,60px);
+        background: #EFEFEF;
+     }
+
+.buttons{
+    margin: 20px;
+}
+.input{
+    margin: 20px;
+    font-size: 30px;
+}
+#add-gif{
+    font-size: 16px;
+    margin-top: 20px;
+    
+}
+#gifs-appear-here{
+    margin-left: 20px;
+}

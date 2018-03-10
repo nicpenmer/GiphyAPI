@@ -1,0 +1,58 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Giphy API</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
+        crossorigin="anonymous">
+
+    <script type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Monoton|Shrikhand" rel="stylesheet">
+    <!-- Code to the JavaScript File -->
+    <script src="assets/Javascript/script.js"></script>
+</head>
+
+<body>
+    <h1 id="header">It's a Gif(t).</h1>
+    <div class="container">
+
+        <!--buttons will go in this div-->
+
+        <!--gifs  will go in this div-->
+
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="buttons">
+                    <!--buttons appear here-->
+                    <div id="buttons-view">
+                        <button class="button" data-person="Puns+Animals">Animals</button>
+                        <button class="button" data-person="Puns+Food">Food</button>
+                        <button class="button" data-person="Puns+drinks">Drinks</button>
+                        <button class="button" data-person="Puns+Nature">Nature</button>
+                        <button class="button" data-person="Puns+movies">Movies</button>
+                    </div>
+                </div>
+                <!--Div for gifs -->
+                <div id="gifs"></div>
+            </div>
+            <div class="col-lg-6">
+                <div class="input">
+                    <form id="gif-form">
+                        <label for="gif-input">So you think you're punny? Enter a category: </label>
+                        <input type="text" id="gif-input">
+
+                        <!-- Button adds new gifs -->
+                        <input class="button" id="add-gif" type="submit" value="Find more puns.">
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
